@@ -5,6 +5,7 @@
     body {
       padding-bottom: 40px;
       color: #5a5a5a;
+	  background-color: #dbdbdb;
     }
 
 
@@ -99,7 +100,7 @@
     .carousel-caption .lead {
       margin: 0;
       line-height: 1.25;
-      color: #fff;
+      color: #e5e5e5;
       text-shadow: 0 1px 1px rgba(0,0,0,.4);
     }
     .carousel-caption .btn {

@@ -18,3 +18,12 @@ def SocialMedia(request):
 
 def upcoming(request):
     return render(request, 'SocialMedia.html', {})
+	
+def mikeBio(request):
+	return render(request, 'mikeBio.html', {})
+
+def ahmedBio(request):
+	return render(request, 'ahmedBio.html', {})
+	
+def ianBio(request):
+	return render(request, 'ianBio.html', {})

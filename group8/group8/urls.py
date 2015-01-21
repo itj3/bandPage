@@ -9,6 +9,9 @@ urlpatterns = patterns('',
     url(r'^Tour', 'group8.views.Tour', name='Tour'),
     url(r'^SocialMedia', 'group8.views.SocialMedia', name='SocialMedia'),
     url(r'^upcoming', 'group8.views.upcoming', name='upcoming'),
+	url(r'^mikeBio', 'group8.views.mikeBio', name='mikeBio'),
+	url(r'^ahmedBio', 'group8.views.ahmedBio', name='ahmedBio'),
+	url(r'^ianBio', 'group8.views.ianBio', name='ianBio'),
 
     url(r'^admin/', include(admin.site.urls)),
 )

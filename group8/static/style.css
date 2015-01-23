@@ -90,10 +90,10 @@
     }
 
     .carousel-caption {
-      background-color: transparent;
+      background-color: rgba(0, 0, 0, 0.75);
       position: static;
       max-width: 550px;
-      padding: 0 20px;
+      padding: 5 20px;
       margin-top: 200px;
     }
     .carousel-caption h1,

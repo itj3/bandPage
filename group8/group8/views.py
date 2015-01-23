@@ -27,3 +27,6 @@ def ahmedBio(request):
 	
 def ianBio(request):
 	return render(request, 'ianBio.html', {})
+
+def davidBio(request):
+    return render(request, 'davidBio.html', {})

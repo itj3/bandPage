@@ -12,6 +12,7 @@ urlpatterns = patterns('',
 	url(r'^mikeBio', 'group8.views.mikeBio', name='mikeBio'),
 	url(r'^ahmedBio', 'group8.views.ahmedBio', name='ahmedBio'),
 	url(r'^ianBio', 'group8.views.ianBio', name='ianBio'),
+    url(r'^davidBio', 'group8.views.davidBio', name='davidBio'),
 
     url(r'^admin/', include(admin.site.urls)),
 )

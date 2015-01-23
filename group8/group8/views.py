@@ -30,3 +30,6 @@ def ianBio(request):
 
 def davidBio(request):
     return render(request, 'davidBio.html', {})
+
+def alexBio(request):
+    return render(request, 'alexBio.html', {})

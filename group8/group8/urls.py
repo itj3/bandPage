@@ -13,6 +13,6 @@ urlpatterns = patterns('',
 	url(r'^ahmedBio', 'group8.views.ahmedBio', name='ahmedBio'),
 	url(r'^ianBio', 'group8.views.ianBio', name='ianBio'),
     url(r'^davidBio', 'group8.views.davidBio', name='davidBio'),
-
+    url(r'^alexBio', 'group8.views.alexBio', name='alexBio'),
     url(r'^admin/', include(admin.site.urls)),
 )
